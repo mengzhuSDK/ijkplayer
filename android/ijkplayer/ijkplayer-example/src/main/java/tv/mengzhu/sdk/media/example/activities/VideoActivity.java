@@ -135,7 +135,7 @@ public class VideoActivity extends AppCompatActivity implements TracksFragment.I
 
         // init player
         IjkMediaPlayer.loadLibrariesOnce(null);
-        IjkMediaPlayer.native_profileBegin("libijkplayer.so");
+        IjkMediaPlayer.native_profileBegin("libmzplayer.so");
 
         mVideoView = (IjkVideoView) findViewById(R.id.video_view);
         mVideoView.setMediaController(mMediaController);
